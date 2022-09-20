@@ -14,11 +14,17 @@
 }
 
 .wave.top {
-  top: 0;
+  top: 100%;
+  bottom: -100%;
+  background-image: url('../../img/wave.svg'); 
+  background-repeat: no-repeat; 
 }
 
 .wave.bottom {
-  bottom: 0;
+  height: 100%;
+  top: 0;
+  background-image: url('../../img/wave-2.svg'); 
+  background-repeat: no-repeat; 
 }
 
 .participants {
